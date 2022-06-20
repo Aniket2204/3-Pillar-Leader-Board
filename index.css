@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  .container{
+    background: linear-gradient(120deg, Black, White);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+  }
+  header,
+  form {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    font-size: 12vh;
+  
+    font-weight: 900;
+
+    font-stretch:extra-expanded;
+    background-color: black;
+    color:white;
+  }
+  .submit{
+    border-radius: 1.4vh;
+  }
+  
+  form input,
+  form button {
+    padding: 1vh;
+    margin: 2vh;
+    border: none;
+    font-size: 3vh;
+    background: rgb(7, 5, 5);
+    COLOR:white;
+    outline: none;
+  }
+  form button {
+    color: white;
+    background-color: rgb(7, 5, 5);
+    cursor: pointer;
+  }
+  form button:hover {
+    color: white;
+    background-color: skyblue;
+  }
+  .todo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .todo-list {
+    min-width: 79%;
+    list-style: none;
+  }
+  .todo {
+    margin: 1.1;
+    font-size: 3.3vh;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7vh .7vh;
+    border-radius: 1.4vh;
+  }
+  .todo li {
+    flex: 1;
+  }
+  .plus-btn,
+  .delete-btn ,
+  .minus-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 2.5vh;
+    cursor: pointer;
+    font-size: 2.5vh;
+    outline: none;
+    border-radius: 50%;
+    margin-right: 2.5vh;
+  }
+  .delete-btn {
+    background-color: Red;
+    font-size:2.24vh !important;
+    border-radius: 50%;
+  }
+  .plus-btn{
+    background-color: yellow;
+  }
+  .todo-item1 ,.todo-item2,.todo-item3,.todo-item4{
+    margin: 1.1vh;
+  }
+  
+  .fa-trash,
+  .fa-check {
+    pointer-events: none;
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  input{
+    border-radius:1.4vh;
+    border-color: rosybrown;
+  }
